@@ -23,7 +23,8 @@ nav {
 }
 
 .nav-brand {
-    height: 28px; 
+    content: url("brand-inverted.png");
+    height: 28px;
     width: auto;
     display: block;
 }
