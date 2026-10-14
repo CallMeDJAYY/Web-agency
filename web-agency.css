@@ -2,7 +2,7 @@
 
 body {
     font: 16px 'Lato', sans-serif;
-    color: #333333;
+    color: #ffffff;
     background-color: #234b8c;
     margin: 0;
     padding: 0;
@@ -19,10 +19,13 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 80px;
+    
 }
 
 .nav-brand {
-    height: 24px;
+    height: 28px; 
+    width: auto;
+    display: block;
 }
 
 .nav-primary {
@@ -50,6 +53,7 @@ nav {
     text-transform: lowercase;
     font-weight: 700;
     text-decoration: none;
+    display: inline-block;
 }
 
 .header-title {
@@ -64,7 +68,7 @@ nav {
     text-align: center;
     font-size: 1.2rem;
     font-weight: 300;
-    color: #8da4d0;
+    color: #a0c4ff;
     text-transform: capitalize;
     margin-bottom: 40px;
 }
@@ -92,7 +96,6 @@ nav {
 
 .service:hover {
     background-color: #38b6ff;
-    color: #ffffff;
 }
 
 .service-title {
